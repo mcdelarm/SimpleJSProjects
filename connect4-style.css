@@ -1,0 +1,80 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  background-color: darkblue;
+  margin-top: 0px;
+  margin-left: 100px;
+  margin-right: 100px;
+  column-gap: 20px;
+  row-gap: 10px;
+  padding: 10px;
+}
+.column-selector{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  column-gap: 20px;
+  row-gap: 10px;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+.column-button{
+  background-color: white;
+  border: none;
+  align-items: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.column-button .hover-image {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.column-button:hover .hover-image {
+  opacity: 1;
+}
+
+.game-button {
+  background-color: white;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+  border: none;
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.Yellow-button {
+  background-color: yellow;
+}
+
+.Red-button {
+  background-color: red;
+}
+
+.reset-button {
+  display: block;
+  margin: auto; 
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  background-color: gray;
+  cursor: pointer;
+}
+.reset-button:hover {
+  opacity: 0.7;
+}
